@@ -25,6 +25,8 @@ with open(filepath) as f:
             # print(name)
             functions.append(name)
 
+functions = set(functions)
+
 functions_joined = []
 
 for name in functions:
