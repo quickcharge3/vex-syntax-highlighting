@@ -2,9 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "vex",
 	"patterns": [
-		{
-			"include": "operators"
-		},
+
 		{
 			"include": "#comments_block"
 		},
@@ -25,6 +23,9 @@
 		},
 		{
 			"include": "#reserved_keywords"
+		},
+		{
+			"include": "#operators"
 		}
 
 
@@ -95,13 +96,11 @@
 			"match": "\\b(break|bsdf|char|color|const|continue|do|dict|else|export|false|float|for|forpoints|foreach|gather|hpoint|if|illuminance|import|int|integer|matrix|matrix2|matrix3|normal|point|return|string|struct|true|typedef|union|vector|vector2|vector4|void|while)\\b"
 		},
 
-		"operators":{
-			"patterns": [
-			{
-			"name": "entity.name.function.vex",
-			"match": "\\b(foobar|barbarfoo)\\b"
-			}
-			]
+		"operators": {
+			"patterns": [{
+				"name": "variable.name.vex",
+				"match": "(\\*|\\%|\/|\\-|\\+|\\!|\\=|\\<|\\>|\\\\|\\.|\\|)"
+			}]
 		}
 		
 	},
