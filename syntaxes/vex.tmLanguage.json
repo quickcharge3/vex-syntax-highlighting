@@ -2,8 +2,9 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "vex",
 	"patterns": [
+		
 		{
-			"include": "#comments"
+			"include": "#comments_block"
 		},
 		{
 			"include": "#keywords"
@@ -17,34 +18,7 @@
 
 	],
 	"repository": {
-		"comments": {
-			"patterns": [
-				{
-				"begin": "#\\!",
-				"beginCaptures": {
-					"0": {
-						"name": "punctuation.definition.comment.vex"
-					}
-				},
-				"end": "\\n",
-				"name": "comment.line.number-sign.vex"
-			},
-			{
-				"captures": {
-					"0":{
-						"name": "punctuation.definition.comment.vex"
-					}
-				},
-				"match": "/\\*\\*/",
-				"name": "comment.block.empty.vex"
-			},
-			{
-			"include": "#comments-inline"
-			}
-		]
-		},
-
-		"comments-inline":{
+		"comments_block":{
 			"patterns": [
 				{
 					"begin": "/\\*",
@@ -57,7 +31,7 @@
 					"name": "comment.block.vex"
 				},
 				{
-					"begin": "(^[ \\t]+)?(?=//xyz)",
+					"begin": "(^[ \\t]+)?(?=//)",
 					"beginCaptures": {
 						"1": {
 							"name": "punctuation.whitespace.comment.leading.vex"
