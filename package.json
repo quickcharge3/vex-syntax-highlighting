@@ -1,0 +1,25 @@
+{
+  "name": "vex",
+  "displayName": "VEX",
+  "description": "VEX Houdini Syntax Highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.1"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "vex",
+      "aliases": ["Vector Expressions", "vex"],
+      "extensions": [".vex"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "vex",
+      "scopeName": "source.vex",
+      "path": "./syntaxes/vex.tmLanguage.json"
+    }]
+  }
+}
