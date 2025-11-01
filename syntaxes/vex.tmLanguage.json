@@ -6,6 +6,9 @@
 		{
 			"include": "#comments_block"
 		},
+{
+			"include": "#comments_inline"
+		},
 		{
 			"include": "#keywords"
 		},
@@ -31,8 +34,20 @@
 					"name": "comment.block.vex"
 				}
 			]
-
-
+		},
+		"comments_inline":{
+			"patterns": [
+				{
+					"begin": "//",
+					"captures": {
+						"0": {
+							"name": "punctuation.definition.comment.vex"
+						}
+					},
+					"end": "\n",
+					"name": "comment.inline.vex"
+				}
+			]
 		},
 
 
