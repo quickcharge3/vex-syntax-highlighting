@@ -98,8 +98,8 @@
 
 		"operators": {
 			"patterns": [{
-				"name": "variable.name.vex",
-				"match": "(\\*|\\%|\/|\\-|\\+|\\!|\\=|\\<|\\>|\\\\|\\.|\\|)"
+				"name": "entity.name.function.vex",
+				"match": "(\\*|\\%|\/|\\-|\\+)"
 			}]
 		}
 		
