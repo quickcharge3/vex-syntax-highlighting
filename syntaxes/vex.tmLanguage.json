@@ -65,9 +65,17 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.vex",
-				"match": "\\b(break|bsdf|char|const|continue|do|dict|else|export|false|float|for|forpoints|foreach|gather|hpoint|if|illuminance|import|int|integer|matrix|matrix2|matrix3|normal|point|return|string|struct|true|typedef|union|vector|vector2|vector4|void|while|include)\\b"
+				"match": "\\b(break|bsdf|char|const|continue|do|else|export|false|for|forpoints|foreach|gather|hpoint|if|illuminance|import|integer|normal|point|return|struct|true|typedef|union|void|while|include)\\b"
 			}]
 		},
+
+		"variable_declarations": {
+			"patterns": [{
+				"name": "variable.vex",
+				"match": "\\b(int|float|string|vector|vector2|vector4|matrix|matrix2|matrix3|dict)\\b"
+			}]
+		},
+
 
 		"strings": {
 			"name": "string.quoted.double.vex",
@@ -87,7 +95,7 @@
 		},
 
 		"exposed_variables":{
-			"name": "variable.name.vex",
+			"name": "variable.exposed.vex",
 			"match": "(i|f|v|3|4)?@\\w*"
 		},
 
