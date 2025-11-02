@@ -256,7 +256,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#ecc48d"
+        "foreground": "#7DF09A"
       }
     },
     {
@@ -265,7 +265,7 @@
         "variable.other.readwrite.js"
       ],
       "settings": {
-        "foreground": "#ecc48d"
+        "foreground": "#7DF09A"
       }
     },
     {
