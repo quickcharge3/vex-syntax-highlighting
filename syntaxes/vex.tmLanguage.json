@@ -95,13 +95,13 @@
 		},
 
 		"variables_exposed":{
-			"name": "variable.name.vex",
+			"name": "variable.name.exposed.vex",
 			"match": "(i|f|v|3|4)?(\\[\\])?@\\w*"
 		},
 
 		"variable_declarations": {
 			"patterns": [{
-				"name": "variable.name.vex",
+				"name": "variable.name.declaration.vex",
 				"match": "\\b(int|float|string|vector|vector2|vector4|matrix|matrix2|matrix3|dict)\\b"
 			}]
 		},

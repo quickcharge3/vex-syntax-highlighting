@@ -1,0 +1,80 @@
+{
+  "colors": {
+    
+  },
+  "displayName": "vex_vanilla",
+  "name": "vex_vanilla",
+  "semanticHighlighting": false,
+  "tokenColors": [
+    {
+     "scope": [
+        "variable.name.exposed.vex"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#E8E382"
+      }
+    },
+    {
+     "scope": [
+        "variable.name.declaration.vex"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5FCCED"
+      }
+    },
+    {
+     "scope": [
+        "string.quoted.double.vex"
+      ],
+      "settings": {
+        "foreground": "#68E880"
+      }
+    },
+    {
+     "scope": [
+        "string.quoted.single.vex"
+      ],
+      "settings": {
+        "foreground": "#68E880"
+      }
+    },
+    {
+     "scope": [
+        "entity.name.function.vex"
+      ],
+      "settings": {
+        "foreground": "#B082E8"
+      }
+    },
+    {
+     "scope": [
+        "keyword.control.vex"
+      ],
+      "settings": {
+        "foreground": "#3B8096"
+      }
+    },
+    {
+     "scope": [
+        "operators.vex"
+      ],
+      "settings": {
+        "foreground": "#1F4D5E"
+      }
+    },
+    {
+     "scope": [
+        "comment.vex"
+      ],
+      "settings": {
+        "foreground": "#1F4D5E"
+      }
+    }
+
+
+
+  ],
+  "type": "dark"
+}
