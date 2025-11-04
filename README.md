@@ -1,4 +1,4 @@
-a grammar and theme file for Houdini's Vector Expressions (vex) language for use with Obsidian.
+A grammar and theme file for Houdini's Vector Expressions (vex) language for use with Obsidian.
 
 # Usage
 
@@ -20,7 +20,5 @@ when creating a new codeblock or inline code, use "vex" as the language identifi
 ______________
 
 ![alt text](image-2.png)
-
-______________
 
 ![alt text](image-1.png)
