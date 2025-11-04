@@ -6,9 +6,10 @@ Install Shiki Highlighter Community Plugin for Obsidian
 
 Create two folders anywhere within your vault
 
-/YourVault/ShikiGrammar/
+```/YourVault/ShikiGrammar/
 
-/YourVault/ShikiThemes/
+
+/YourVault/ShikiThemes/```
 
 paste the grammar and theme file into their respective folders, open the Shiki plugin settings and point the plugin towards them by filling in the folder paths
 
