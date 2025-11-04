@@ -207,8 +207,8 @@
     "welcomePage.buttonHoverBackground": "#011627",
     "widget.shadow": "#011627"
   },
-  "displayName": "vex",
-  "name": "vex",
+  "displayName": "example_test",
+  "name": "example_test",
   "semanticHighlighting": false,
   "tokenColors": [
     {

@@ -2,8 +2,8 @@
   "colors": {
     
   },
-  "displayName": "vex_vanilla",
-  "name": "vex_vanilla",
+  "displayName": "vex",
+  "name": "vex",
   "semanticHighlighting": false,
   "tokenColors": [
     {
@@ -61,15 +61,23 @@
         "operators.vex"
       ],
       "settings": {
-        "foreground": "#1F4D5E"
+        "foreground": "#FCF2E8"
       }
     },
     {
      "scope": [
-        "comment.vex"
+        "comment.block.vex"
       ],
       "settings": {
-        "foreground": "#1F4D5E"
+        "foreground": "#5E635A"
+      }
+    },
+    {
+     "scope": [
+        "comment.inline.vex"
+      ],
+      "settings": {
+        "foreground": "#5E635A"
       }
     }
 
