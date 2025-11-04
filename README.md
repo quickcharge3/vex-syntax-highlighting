@@ -13,7 +13,7 @@ paste the grammar and theme file into their respective folders and point the Shi
 
 when creating a new codeblock or inline code, use "vex" as the language identifier
 
-```vex
+``` \vex
 
 string foo = "Hello World";
 
