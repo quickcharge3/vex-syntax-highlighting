@@ -1,7 +1,5 @@
 a grammar and theme file for Houdini's Vector Expressions (vex) language for use with Obsidian.
 
-_______________
-
 # Usage
 
 Install and enable Shiki Highlighter Community Plugin for Obsidian
@@ -22,5 +20,7 @@ when creating a new codeblock or inline code, use "vex" as the language identifi
 ______________
 
 ![alt text](image-2.png)
+
+______________
 
 ![alt text](image-1.png)
