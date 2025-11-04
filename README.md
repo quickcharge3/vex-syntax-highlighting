@@ -4,6 +4,8 @@ Usage
 
 Install Shiki Highlighter Community Plugin for Obsidian
 
+https://github.com/mProjectsCode/obsidian-shiki-plugin
+
 Create two folders anywhere within your vault
 
 ```
