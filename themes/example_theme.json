@@ -207,8 +207,8 @@
     "welcomePage.buttonHoverBackground": "#011627",
     "widget.shadow": "#011627"
   },
-  "displayName": "example_test",
-  "name": "example_test",
+  "displayName": "base_theme_test",
+  "name": "base_theme_test",
   "semanticHighlighting": false,
   "tokenColors": [
     {

@@ -1,0 +1,88 @@
+{
+  "colors": {
+    
+  },
+  "displayName": "vex",
+  "name": "vex",
+  "semanticHighlighting": false,
+  "tokenColors": [
+    {
+     "scope": [
+        "variable.name.exposed.vex"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#E8E382"
+      }
+    },
+    {
+     "scope": [
+        "variable.name.declaration.vex"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5FCCED"
+      }
+    },
+    {
+     "scope": [
+        "string.quoted.double.vex"
+      ],
+      "settings": {
+        "foreground": "#68E880"
+      }
+    },
+    {
+     "scope": [
+        "string.quoted.single.vex"
+      ],
+      "settings": {
+        "foreground": "#68E880"
+      }
+    },
+    {
+     "scope": [
+        "entity.name.function.vex"
+      ],
+      "settings": {
+        "foreground": "#B082E8"
+      }
+    },
+    {
+     "scope": [
+        "keyword.control.vex"
+      ],
+      "settings": {
+        "foreground": "#3B8096"
+      }
+    },
+    {
+     "scope": [
+        "operators.vex"
+      ],
+      "settings": {
+        "foreground": "#FCF2E8"
+      }
+    },
+    {
+     "scope": [
+        "comment.block.vex"
+      ],
+      "settings": {
+        "foreground": "#5E635A"
+      }
+    },
+    {
+     "scope": [
+        "comment.inline.vex"
+      ],
+      "settings": {
+        "foreground": "#5E635A"
+      }
+    }
+
+
+
+  ],
+  "type": "dark"
+}

@@ -13,12 +13,16 @@ Create two folders anywhere within your vault, for example
 /YourVault/ShikiThemes/
 ```
 
-Paste the grammar file `(/syntaxes/vex.tmLanguage.json)` and theme file `(/themes/vex.tmTheme.json)` into their respective folders, open the Shiki plugin settings and point the plugin towards these folders via the plugin settings
+Paste the grammar file `(/syntaxes/vex.tmLanguage.json)` and theme file `(/themes/vex.tmTheme.json)` found in `./syntaxes` and `./themes` into their respective folders
+
+Open the Shiki plugin settings and point the plugin towards these folders
+
+Select "vex" as the default theme in the plugin settings dropdown list
 
 When creating a new codeblock or inline code, use "vex" as the language identifier for the code block
 
 ______________
 
-![alt text](image-2.png)
+![alt text](./temp/image-2.png)
 
-![alt text](image-1.png)
+![alt text](./temp/image-1.png)
