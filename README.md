@@ -26,3 +26,5 @@ ______________
 ![alt text](./temp/image-2.png)
 
 ![alt text](./temp/image-1.png)
+
+![alt text](./temp/shikisettings.png)
