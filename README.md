@@ -13,7 +13,7 @@ Create two folders anywhere within your vault, for example
 /YourVault/ShikiThemes/
 ```
 
-Paste the grammar file `(/syntaxes/vex.tmLanguage.json)` and theme file `(/themes/vex.tmTheme.json)` found in `./syntaxes` and `./themes` into their respective folders
+Paste the grammar file `(/syntaxes/vex.tmLanguage.json)` and theme file `(/themes/vex.tmTheme.json)` into their respective folders
 
 Open the Shiki plugin settings and point the plugin towards these folders
 
