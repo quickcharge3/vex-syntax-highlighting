@@ -19,6 +19,8 @@ Open the Shiki plugin settings and point the plugin towards these folders
 
 Select "vex" as the default theme in the plugin settings dropdown list
 
+You might have to restart Obsidian after copying the files over
+
 When creating a new codeblock or inline code, use "vex" as the language identifier for the code block
 
 ______________
