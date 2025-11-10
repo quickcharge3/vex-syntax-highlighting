@@ -12,7 +12,7 @@ import os
 import re
 
 
-filepath = "vex_language_reference/functions.txt"
+filepath = "temp/functions.txt"
 file =  open(filepath)
 
 functions = []
