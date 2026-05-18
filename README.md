@@ -22,15 +22,13 @@ _VEX is a high-performance expression language used in many places in Houdini, s
 /YourVault/ShikiTheme/
 ```
 
-3) Paste the grammar file `/syntaxes/vex.tmLanguage.json` and theme file `/themes/vex.tmTheme.json` into their respective folders
+3) Copy the grammar file `/syntaxes/vex.tmLanguage.json` and theme file `/themes/vex.tmTheme.json` into their respective folders
 
 4) Open the Shiki plugin settings and point the plugin towards these folders
 
 5) Select `vex` as the default theme in the plugin settings dropdown list
 
 You might have to restart Obsidian for changes to take effect
-
-
 
 ______________
 
