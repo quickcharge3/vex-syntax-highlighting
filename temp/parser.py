@@ -1,6 +1,7 @@
 # load input file
-# get first word on each row, add to list
-# concat words with | separator
+# extract function names
+# concat function names with | separator
+# the concatenated list of function names is used in the grammar file /syntaxes/vex.tmLanguage.json
 
 import os
 import re
@@ -27,14 +28,13 @@ for name in functions:
     # print(name)
     functions_joined.append(name)
 
-# make really long string
+# concat into long string
 
 full_string = ""
 
 for name in functions_joined:
     # print(name)
     full_string = "".join([full_string, name])
-
 
 print(full_string)
 
