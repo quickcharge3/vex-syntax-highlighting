@@ -15,7 +15,7 @@ _VEX is a high-performance expression language used in many places in Houdini, s
 
 1) Install and enable the [Shiki Highlighter Community Plugin](https://github.com/mProjectsCode/obsidian-shiki-plugin) for Obsidian
 
-2) Create two folders within your vault, for example
+2) Create two folders within your Obsidian vault, for example
 
 ```
 /YourVault/ShikiLanguage/
