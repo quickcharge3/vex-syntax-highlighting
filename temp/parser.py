@@ -1,16 +1,9 @@
 # load input file
-
 # get first word on each row, add to list
-
-# concat words with "|" as separator
-
-# profit
-
-
+# concat words with | separator
 
 import os
 import re
-
 
 filepath = "temp/functions.txt"
 file =  open(filepath)
